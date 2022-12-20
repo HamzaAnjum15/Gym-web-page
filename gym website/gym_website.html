@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamza Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/crossfit-1126999_1920.jpg');
+    background-repeat: no-repeat;
+}
+    .left{
+        font-size: larger;
+        line-height: 0mm;
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 34px;
+        top: 20px;
+    }
+    .mid{
+        /* display: inline-block; */
+        display: block;
+        font-weight: 700;
+        top: 20px;
+        width: 40%;
+        margin: 10px auto;
+        /* top: 20px; */
+        /* border: 2px solid green; */
+    }
+    .right{
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        margin: 9px;
+        /* border: 2px solid blue; */
+    }
+    .navbar li{
+        display: inline-block;
+    }
+    .navbar{
+        display: inline-block;
+        font-size: 20px;
+    }
+    .navbar li a{
+        text-decoration: none;
+        color: black;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover,.navbar li a:active{
+        text-decoration: underline;
+        color: rgb(96, 89, 89);
+       
+    }
+    .left img{
+        width: 150px;
+    }
+    .left div{
+        text-align: center;
+        padding: 0px;
+    }
+    .btn{
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(67, 71, 68);
+
+    }
+    .container{
+        /* border: 2px solid white; */
+        margin: 106px 80px;
+        padding: 100px;
+        width: 33%;
+        /* border-radius: 28px; */
+        margin: auto;
+    }
+    .formgroup input{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+    .container h1{
+        text-align: center;
+        color: rgb(239, 245, 248);
+    }
+    .container button{
+        display: block;
+        width: 102.5%;
+        margin: 20px auto;
+        
+    }
+</style>
+<body>
+    <header class="header">
+        <!-- for logo -->
+        <div class="left">
+
+            <img src="img/weight-1399281_1280.png" alt="">
+            <div>HA Fitness</div>
+            
+        </div>
+        <!-- for navigation -->
+        <div class="mid">
+            <ul class="navbar" >
+            <li><a href="#" class="active"> Home</a></li>
+            <li><a href="#">About us</a> </li>
+            <li><a href="#">Fee structure</a> </li>
+            <li><a href="#"> Contact</a></li>
+            </ul></div>
+        <!-- for button -->
+        <div class="right">
+            <button class="btn">Call us</button><button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym in town</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your locality">
+            </div>
+        </form>
+        <button class="btn">Submit</button>
+    </div>
+</body>
+</html>
